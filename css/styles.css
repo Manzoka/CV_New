@@ -2,7 +2,7 @@
   background-color: #a0937d;
   position: relative;
   padding-top: 100px;
-
+margin: 0px;
 }
 body {
   margin: 0px;
@@ -24,6 +24,7 @@ h3 {
 }
 .middle-container {
   background-color: #e7d4b5;
+  margin: 0px;
 
 }
 .bottom-container {
@@ -72,4 +73,7 @@ hr {
  transition: box-shadow 200ms ease-in-out;
  box-shadow: 0px 0px 0px 0px #f9f9f9;
 
+}
+.profile {
+  margin= 0px;
 }
