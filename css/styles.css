@@ -42,12 +42,13 @@ background-color: #e7d4b5;
 }
 .bottom-container {
   background-color: #f6e6cb;
+
 }
 
 p {
   font-size: 18px;
   font-weight: normal;
-
+  margin-bottom: 0px;
 
 }
 
