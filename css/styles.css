@@ -21,7 +21,7 @@ h1 {
 
 h2 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 2.5rem;
+  font-size: 2rem;
 
   font-weight: normal;
   margin: 0px;
@@ -38,7 +38,10 @@ h3 {
   background-color: #e7d4b5;
 }
 .profile{
-background-color: #e7d4b5;
+width: 35%;
+margin: 0px auto;
+padding: 100px 0px;
+
 }
 .bottom-container {
   background-color: #f6e6cb;
@@ -70,6 +73,7 @@ p {
 
 .customers {
   width: 30%;
+  max-width: 280px;
   height: auto;
   margin-top: 30px;
   float: left;
@@ -78,6 +82,7 @@ p {
 
 .innovation {
   width: 30%;
+  max-width: 280px;
   height: auto;
   float: right;
   margin-left: 30px;
@@ -85,15 +90,11 @@ p {
 }
 
 hr {
-
-  min-width: 100%;
-  max-width: 100%;
-  margin: 2 auto;
+  width: 100px;
+  border-style: dotted;
   border: none;
-  border-bottom: 1px solid #666;
-  position: relative;
-  transition: box-shadow 200ms ease-in-out;
-  box-shadow: 0px 0px 0px 0px #f9f9f9;
+  border-top: 10px dotted;
+  color: #a0937d;
 }
 .mountain {
   margin: 0px;
@@ -110,4 +111,44 @@ br {
 }
 .text{
   text-align: justify;
+}
+.skills{
+  padding-top: 100px;
+}
+.contact-me {
+  padding: 50px 0px;
+  width: 50%;
+  margin: 0px auto;
+}
+.BUTTON_JKO {
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #393E46;
+   font-family: 'Shadows Into Light', cursive;
+   font-size: 1.75rem;
+   font-weight: 100;
+   padding: 15px;
+   border-color-hover: ;
+   border-style-hover: solid;
+   border-width-hover: 1;
+   background-color: #A0937D;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.BUTTON_JKO:hover {
+   background: #f6e6cb;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+.endtext {
+  margin-bottom: 50px;
+}
+.footer-link {
+  margin: 0px 20px;
 }
